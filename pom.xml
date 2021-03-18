@@ -32,6 +32,15 @@
 			</build>
 		</profile>
 		<profile>
+			<id>prod</id>
+			<properties>
+				<activatedProperties>prod</activatedProperties>
+			</properties>
+			<build>
+				<finalName>sock-prod</finalName>
+			</build>
+		</profile>
+		<profile>
 			<id>dev</id>
 			<properties>
 				<activatedProperties>dev</activatedProperties>
