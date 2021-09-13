@@ -1,8 +1,9 @@
 package lu.lux.socket;
 
-
-
+import java.math.BigDecimal;
 import java.time.Instant;
+import java.time.LocalTime;
+import java.util.Date;
 
 public interface SimpleRoutingAppointment {
 
@@ -10,7 +11,7 @@ public interface SimpleRoutingAppointment {
 
 	String getCustomerfullname();
 
-	Long getTransporttype();
+	Long getTransportType();
 
 	Long getAppointmentstate();
 
@@ -55,9 +56,39 @@ public interface SimpleRoutingAppointment {
 	Boolean getRueckfahrt();
 
 	String getRemark();
-	
+
 	Long getFromAddressId();
-	
+
 	Long getToAddressId();
+
+	Instant getCreateDate();
+
+	Instant getLastmodifydDate();
+
+	String getLastmodifyUserName();
+
+	String getCreateUserName();
+
+	Boolean getIsolated();
+
+	Boolean getShowDescription();
+
+	Boolean getOpenInvoices();
+
+	BigDecimal getNotPaid();
+
+	Date getLastInvoiceDate();
+
+	String getLastInvoiceNumber();
+
+	String getFullFromAddress();
+
+	String getFullToAddress();
+
+	Integer getTitleId();
+
+	Integer getCustomerId();
+
+	LocalTime getReturnAppointment();
 
 }
