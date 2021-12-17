@@ -94,5 +94,17 @@ public interface SimpleRoutingAppointment {
 	Integer getCustomerId();
 
 	LocalTime getReturnAppointment();
+	
+	String getHealthInsuranceNumber();
+	
+	Integer getOxyliter();
+	
+	LocalTime getMeetingTime();
+	
+	Boolean getVaccinated();
+	
+	String getLastName();
+	
+	Boolean getStayByPatient();
 
 }
