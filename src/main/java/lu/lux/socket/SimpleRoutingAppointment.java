@@ -5,6 +5,10 @@ import java.time.Instant;
 import java.time.LocalTime;
 import java.util.Date;
 
+/**
+ * interface with SimpleRoutingAppointment attributes that are shown in Calender
+ * / Frontend
+ */
 public interface SimpleRoutingAppointment {
 
 	Long getAppointmentid();
