@@ -106,5 +106,11 @@ public interface SimpleRoutingAppointment {
 	String getLastName();
 	
 	Boolean getStayByPatient();
+	
+	String getFromAddressTxt();
+	
+	String getToAddressTxt();
+	
+	Boolean getBus();
 
 }
