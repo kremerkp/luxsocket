@@ -17,6 +17,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
       config.enableSimpleBroker("/topic", "/queue", "/luxablApp");
   }
 
+
+  /**
+   * registerStompEndpoints
+   */
   @Override
   public void registerStompEndpoints(StompEndpointRegistry registry) {
 	  registry.addEndpoint("/ws").setAllowedOrigins("*");
